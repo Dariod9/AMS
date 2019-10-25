@@ -486,6 +486,22 @@ section.spacer {
 }
 
 
+.spacer.grey,.section.grey {
+	background:#BDBDBD;
+}
+
+
+.spacer.grey,.section.grey h4 {
+	background:#BDBDBD;
+}
+
+.spacer.blue,.section.blue {
+	background:#104887;
+}
+
+.spacer.blue,.section.blue h4{
+	background:#104887;
+}
 
 .spacer.green,.section.blue {
 	background:#104887;
@@ -1026,6 +1042,11 @@ div.cform-response-output {
 	border-radius: 4px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
+}
+
+section#contact.section.blue .service-box:hover {
+	background:#104887;
+
 }
 
 
