@@ -114,6 +114,11 @@ a.scrollup i:hover {
 	display: block;
 }
 
+.blankdivider120 {
+	height: 120px;
+	display: block;
+}
+
 .row {
 	margin-bottom:30px;
 }
@@ -144,6 +149,8 @@ input, button, select, textarea {
 /* =========================================================
 02. Typography
 ============================================================ */
+
+
 
 p {
 	line-height: 1.6em;
@@ -251,6 +258,16 @@ h2.pagetitle {
 03. Misc
 ============================================================ */
 
+
+.cellContainer {
+	width: 5%;
+	float: left;
+  }
+
+  .cellContainer2 {
+	width: 10%;
+	float: left;
+  }
 .hide-text {
 	text-indent: 100%;
 	white-space: nowrap;
@@ -469,6 +486,12 @@ section.inner {
 }
 
 
+.section.green h4 ,.section.grey h4{
+	color: #fcfcfc;
+}
+.section.green p,.section.grey p {
+	color: #f7f7f7;
+}
 
 .section.orange h4 ,.section.green h4{
 	color: #fcfcfc;
@@ -480,6 +503,13 @@ section.inner {
 
 /* === section spacer === */
 
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+
 section.spacer {
 	padding:90px 0 70px;
 	color:#fcfcfc;
@@ -487,7 +517,7 @@ section.spacer {
 
 
 .spacer.grey,.section.grey {
-	background:#BDBDBD;
+	background:#BDBDBD	;
 }
 
 
@@ -798,6 +828,9 @@ section#services.section.blue .service-box:hover {
 	background:#104887;
 }
 
+section#services.section.grey .service-box:hover {
+	background:#BDBDBD;
+}
 /* === section blog === */
 
 section#blog {
